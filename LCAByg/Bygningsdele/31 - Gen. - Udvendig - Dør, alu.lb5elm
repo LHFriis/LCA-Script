@@ -1,0 +1,97 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "9dbf4721-8b3d-409c-9b0f-19bde6100445",
+        "name": {
+          "Danish": "31 / Gen. / Udvendig / Dør, alu"
+        },
+        "source": "User",
+        "comment": {
+          "Norwegian": "",
+          "English": "",
+          "Danish": "",
+          "German": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "38c4c778-fcde-4a7e-9ecd-2fbb4cb5ea33",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "9dbf4721-8b3d-409c-9b0f-19bde6100445",
+      "10706dbf-4b32-47a3-b0ca-8bbfb21a69a4"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "5e638d1f-76d0-433f-928a-7a947c9e8cba"
+        }
+      },
+      "9bd14e05-5fba-4ecb-ab41-7940a8a0dbdc",
+      "9dbf4721-8b3d-409c-9b0f-19bde6100445"
+    ]
+  },
+  {
+    "Node": {
+      "Construction": {
+        "id": "10706dbf-4b32-47a3-b0ca-8bbfb21a69a4",
+        "name": {
+          "Danish": "Dør, hoveddør, stk",
+          "English": "Door, front door (Clone)"
+        },
+        "unit": "Pcs",
+        "source": "User",
+        "comment": {
+          "English": "",
+          "Danish": "Antagelse af at yderdøren er i mål 948 x 2115 mm. Dvs. samlet areal på 2 m2\n\nhttps://www.swedoor.dk/tips-og-rad-da/maaltabeller-yderdore"
+        },
+        "locked": true
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "8183bde4-e893-44f5-9054-2cc1bc8247c2",
+          "amount": 2.0,
+          "unit": "M2",
+          "lifespan": 50,
+          "demolition": false,
+          "delayed_start": 0,
+          "enabled": true,
+          "excluded_scenarios": []
+        }
+      },
+      "10706dbf-4b32-47a3-b0ca-8bbfb21a69a4",
+      "989c41bc-0e89-5e85-aa07-0a59137a11bb"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToConstruction": {
+          "id": "975c1ff4-de27-437b-beba-bc9b2cf0bb74",
+          "layers": [
+            1
+          ]
+        }
+      },
+      "9bd14e05-5fba-4ecb-ab41-7940a8a0dbdc",
+      "10706dbf-4b32-47a3-b0ca-8bbfb21a69a4"
+    ]
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "cf242c78-f4b4-454e-bad2-6e43226dae5a",
+        "name": {
+          "Danish": "27 / Gen. / Beton / Sedum, Nedhængt"
+        },
+        "source": "User",
+        "comment": {
+          "Danish": "",
+          "Norwegian": "",
+          "English": "",
+          "German": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "e9e8611e-139a-4a43-a5c6-fc6f6fa47638",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "cf242c78-f4b4-454e-bad2-6e43226dae5a",
+      "31b087b6-9a09-4338-aa0a-d2280c327cf2"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "7f2d2472-bbae-4471-a4cd-d0dfef0e04a0",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "cf242c78-f4b4-454e-bad2-6e43226dae5a",
+      "e70dafa3-d3ac-524d-bbf7-e46137a1585b"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "bfa0fd4c-9b2c-40e6-a54c-51b4ddca536e",
+          "amount": 0.8,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "cf242c78-f4b4-454e-bad2-6e43226dae5a",
+      "979863a7-4b7a-424c-a267-4f6ff34e901d"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "df07e6b2-f182-4476-88e7-81bc82881456"
+        }
+      },
+      "d734712a-d27d-42c5-936f-98fe4c4df90b",
+      "cf242c78-f4b4-454e-bad2-6e43226dae5a"
+    ]
+  }
+]

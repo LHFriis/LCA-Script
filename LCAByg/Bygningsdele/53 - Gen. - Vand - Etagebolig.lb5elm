@@ -1,0 +1,47 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "d1e04d45-df06-4f1b-a1af-16684fc9a6bd",
+        "name": {
+          "Danish": "53 / Gen. / Vand / Etagebolig"
+        },
+        "source": "User",
+        "comment": {
+          "English": "",
+          "Danish": "",
+          "Norwegian": "",
+          "German": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "5c67aa81-f944-454f-88bd-b4241dc5142d",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "d1e04d45-df06-4f1b-a1af-16684fc9a6bd",
+      "ff35f6aa-0a05-4a08-839d-93a45039a76c"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "d91a1621-37f7-49e2-aaa7-c4542d26cbc6"
+        }
+      },
+      "16528722-ecc6-4a69-a269-35ba3e1205b2",
+      "d1e04d45-df06-4f1b-a1af-16684fc9a6bd"
+    ]
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "e1a5743d-ee42-45ee-abd7-0e461a9afded",
+        "name": {
+          "Danish": "27 / Gen. / Træelement / Tegl, Nedhængt"
+        },
+        "source": "User",
+        "comment": {
+          "Danish": "",
+          "Norwegian": "",
+          "English": "",
+          "German": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "df5f3d97-ee9f-460d-b0e2-50775c15a72b",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "e1a5743d-ee42-45ee-abd7-0e461a9afded",
+      "6fe12a41-b527-50da-9358-0c42539ec684"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "1d217006-c8b6-428b-a3a8-0b86ef8ee9ac",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "e1a5743d-ee42-45ee-abd7-0e461a9afded",
+      "039a6cfa-0e5f-5613-9751-087562dc2196"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "8158c107-d952-4340-adfc-ce48858b77a0",
+          "amount": 0.8,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "e1a5743d-ee42-45ee-abd7-0e461a9afded",
+      "979863a7-4b7a-424c-a267-4f6ff34e901d"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "f170467a-ac8b-4eb4-873d-a5121a79c070"
+        }
+      },
+      "d734712a-d27d-42c5-936f-98fe4c4df90b",
+      "e1a5743d-ee42-45ee-abd7-0e461a9afded"
+    ]
+  }
+]

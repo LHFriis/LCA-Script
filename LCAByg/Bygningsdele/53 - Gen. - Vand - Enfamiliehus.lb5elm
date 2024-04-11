@@ -1,0 +1,47 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "990a455a-b259-40bb-955e-ae54a930173b",
+        "name": {
+          "Danish": "53 / Gen. / Vand / Enfamiliehus"
+        },
+        "source": "User",
+        "comment": {
+          "English": "",
+          "Norwegian": "",
+          "Danish": "",
+          "German": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "f02c141a-8389-4c93-b776-c1edfe61073c",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "990a455a-b259-40bb-955e-ae54a930173b",
+      "0e60fc2f-1460-449f-b3e0-109cdea75b33"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "2e0cacea-7fb2-41cd-bdb4-683bb7b0def6"
+        }
+      },
+      "16528722-ecc6-4a69-a269-35ba3e1205b2",
+      "990a455a-b259-40bb-955e-ae54a930173b"
+    ]
+  }
+]

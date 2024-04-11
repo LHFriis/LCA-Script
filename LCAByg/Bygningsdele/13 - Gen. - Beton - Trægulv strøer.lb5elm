@@ -1,0 +1,77 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "482aae12-f950-4312-b8c5-bd895920c125",
+        "name": {
+          "Danish": "13 / Gen. / Beton / Trægulv strøer"
+        },
+        "source": "User",
+        "comment": {
+          "German": "",
+          "English": "",
+          "Danish": "",
+          "Norwegian": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "c82a3a19-5ae7-4c61-a002-a7b36e7c25c6",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "482aae12-f950-4312-b8c5-bd895920c125",
+      "ee82edfa-d294-4f98-97c9-3ef5596cc1fd"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "b34ec981-5ca7-4132-9f41-7c3b15b7baad",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "482aae12-f950-4312-b8c5-bd895920c125",
+      "e322e452-3da2-40e0-9b7d-c00145c998fa"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "35c593d3-bd4a-4cfa-bf80-5d9b0e52108b",
+          "amount": 0.85,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "482aae12-f950-4312-b8c5-bd895920c125",
+      "81f8cc96-b7b8-5f26-bec2-c4987f68749c"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "425bfcab-4ce3-4a59-813f-7049b7391cda"
+        }
+      },
+      "2ffe16fd-f0c9-4d31-a31a-f96d58d3df95",
+      "482aae12-f950-4312-b8c5-bd895920c125"
+    ]
+  }
+]

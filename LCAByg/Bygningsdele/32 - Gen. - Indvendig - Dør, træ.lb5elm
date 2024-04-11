@@ -1,0 +1,47 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "61520607-65d6-427d-96a6-5bef5f42c88e",
+        "name": {
+          "Danish": "32 / Gen. / Indvendig / Dør, træ"
+        },
+        "source": "User",
+        "comment": {
+          "German": "",
+          "English": "",
+          "Norwegian": "",
+          "Danish": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "9b487765-70a3-4474-a508-6a05a6330c54",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "61520607-65d6-427d-96a6-5bef5f42c88e",
+      "77c8e9c9-2b33-5a9e-b14a-be459d9f0643"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "106d9295-a7fd-4a00-bdb1-215b16f1a208"
+        }
+      },
+      "9bd14e05-5fba-4ecb-ab41-7940a8a0dbdc",
+      "61520607-65d6-427d-96a6-5bef5f42c88e"
+    ]
+  }
+]

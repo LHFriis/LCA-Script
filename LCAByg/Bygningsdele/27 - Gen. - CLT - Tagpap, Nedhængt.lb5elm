@@ -1,0 +1,77 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "d9a29313-d8aa-4e1a-b7f8-61bafd36e9f8",
+        "name": {
+          "Danish": "27 / Gen. / CLT / Tagpap, Nedhængt"
+        },
+        "source": "User",
+        "comment": {
+          "Danish": "",
+          "Norwegian": "",
+          "English": "",
+          "German": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "be61a401-570b-412e-b54b-329f24216a49",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "d9a29313-d8aa-4e1a-b7f8-61bafd36e9f8",
+      "b4aa08e3-fd38-514e-b32b-fb107e112a23"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "d2b43d01-b2cc-4e4f-aa3d-ce3f5c465e97",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "d9a29313-d8aa-4e1a-b7f8-61bafd36e9f8",
+      "4f10e67b-6330-594c-af9c-5e8d2a03d936"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "606c3618-8990-4d83-ad1e-0d09cdc1d880",
+          "amount": 0.8,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "d9a29313-d8aa-4e1a-b7f8-61bafd36e9f8",
+      "979863a7-4b7a-424c-a267-4f6ff34e901d"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "b9be88de-d781-424a-9db7-5e4246e3d01d"
+        }
+      },
+      "d734712a-d27d-42c5-936f-98fe4c4df90b",
+      "d9a29313-d8aa-4e1a-b7f8-61bafd36e9f8"
+    ]
+  }
+]

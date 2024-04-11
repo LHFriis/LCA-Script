@@ -1,0 +1,47 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "05030a2a-9068-495c-afd5-108bdf23a416",
+        "name": {
+          "Danish": "53 / Gen. / Vand / Øvrige bygninger"
+        },
+        "source": "User",
+        "comment": {
+          "English": "",
+          "German": "",
+          "Danish": "",
+          "Norwegian": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "3e653b4c-7b77-43a4-a2ce-7cce2809d611",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "05030a2a-9068-495c-afd5-108bdf23a416",
+      "cc1b9c13-0d6c-4147-a20f-dda3e9596751"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "7a050ed2-73ce-4d70-a108-5565e62cd03c"
+        }
+      },
+      "16528722-ecc6-4a69-a269-35ba3e1205b2",
+      "05030a2a-9068-495c-afd5-108bdf23a416"
+    ]
+  }
+]

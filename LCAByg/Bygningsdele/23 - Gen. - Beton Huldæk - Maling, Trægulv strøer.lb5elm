@@ -1,0 +1,77 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "41a06529-47ec-41f0-a796-544f52bec1f1",
+        "name": {
+          "Danish": "23 / Gen. / Beton Huldæk / Maling, Trægulv strøer"
+        },
+        "source": "User",
+        "comment": {
+          "English": "",
+          "Danish": "",
+          "German": "",
+          "Norwegian": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "415566a0-5b34-4305-aca9-4685cff336aa",
+          "amount": 0.8,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "41a06529-47ec-41f0-a796-544f52bec1f1",
+      "007e635c-a219-5437-b97e-b0953fa3fa75"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "8a52c539-6631-408e-82da-d3e9534b00fe",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "41a06529-47ec-41f0-a796-544f52bec1f1",
+      "1a865038-f98e-426c-b714-56147ff63ff8"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "9d7103b3-f440-411b-906a-3a23a09d1dff",
+          "amount": 0.85,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "41a06529-47ec-41f0-a796-544f52bec1f1",
+      "81f8cc96-b7b8-5f26-bec2-c4987f68749c"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "5f8c4a39-e04a-4e6a-8295-be08207469e2"
+        }
+      },
+      "f4c234ec-77f1-4ee0-92d0-f1819e0307d4",
+      "41a06529-47ec-41f0-a796-544f52bec1f1"
+    ]
+  }
+]

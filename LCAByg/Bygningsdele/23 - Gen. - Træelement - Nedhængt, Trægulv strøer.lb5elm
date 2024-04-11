@@ -1,0 +1,77 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "062e2627-8012-4e73-9bc3-9f0baa5d2b73",
+        "name": {
+          "Danish": "23 / Gen. / Træelement / Nedhængt, Trægulv strøer"
+        },
+        "source": "User",
+        "comment": {
+          "German": "",
+          "Norwegian": "",
+          "Danish": "",
+          "English": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "97eb7d2f-2cd9-4acc-b649-6962d99688f7",
+          "amount": 0.8,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "062e2627-8012-4e73-9bc3-9f0baa5d2b73",
+      "979863a7-4b7a-424c-a267-4f6ff34e901d"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "431ae599-bddc-48df-9a41-67492074f507",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "062e2627-8012-4e73-9bc3-9f0baa5d2b73",
+      "36368c54-c933-54ef-8a1f-c0852ba5a5fc"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "a6adaee6-a41b-4733-89b8-cbfe5df6c4b6",
+          "amount": 0.85,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "062e2627-8012-4e73-9bc3-9f0baa5d2b73",
+      "81f8cc96-b7b8-5f26-bec2-c4987f68749c"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "272a3e9c-e371-4246-aa7d-ba5f8a274ebd"
+        }
+      },
+      "f4c234ec-77f1-4ee0-92d0-f1819e0307d4",
+      "062e2627-8012-4e73-9bc3-9f0baa5d2b73"
+    ]
+  }
+]

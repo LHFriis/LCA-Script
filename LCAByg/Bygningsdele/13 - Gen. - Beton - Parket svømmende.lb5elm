@@ -1,0 +1,77 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "491dbd7d-6660-429e-a0b6-79fee6d35659",
+        "name": {
+          "Danish": "13 / Gen. / Beton / Parket svømmende"
+        },
+        "source": "User",
+        "comment": {
+          "English": "",
+          "Danish": "",
+          "Norwegian": "",
+          "German": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "73745108-9d71-4999-af1f-7fc364ff7093",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "491dbd7d-6660-429e-a0b6-79fee6d35659",
+      "ee82edfa-d294-4f98-97c9-3ef5596cc1fd"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "eeac70a5-cd10-471d-bb1a-fea8d16a734f",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "491dbd7d-6660-429e-a0b6-79fee6d35659",
+      "e322e452-3da2-40e0-9b7d-c00145c998fa"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "cf51f235-353c-4e9f-9c89-a852ee71cb6b",
+          "amount": 0.85,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "491dbd7d-6660-429e-a0b6-79fee6d35659",
+      "c1f43e31-d3ea-567a-8c39-79239dc9395b"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "45e4f4e7-d03b-4bff-bb62-248a00041322"
+        }
+      },
+      "2ffe16fd-f0c9-4d31-a31a-f96d58d3df95",
+      "491dbd7d-6660-429e-a0b6-79fee6d35659"
+    ]
+  }
+]

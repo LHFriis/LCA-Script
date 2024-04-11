@@ -1,0 +1,47 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "0ad33678-6edd-4e7d-8d1f-4c42d8d1ae67",
+        "name": {
+          "Danish": "5 / Gen. / Varme, Ventilation og Køl / Enfamiliehus"
+        },
+        "source": "User",
+        "comment": {
+          "Norwegian": "",
+          "English": "",
+          "German": "",
+          "Danish": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "acf8b410-2a5e-456a-8e6d-95b3f340ddcb",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "0ad33678-6edd-4e7d-8d1f-4c42d8d1ae67",
+      "9eee63cf-af22-43cc-ab92-2ec789fe7ed5"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "79fb0312-7780-4a7b-bed6-6c66c31e1bad"
+        }
+      },
+      "cf702d99-5d5a-4973-ba9c-c4dbfae656a9",
+      "0ad33678-6edd-4e7d-8d1f-4c42d8d1ae67"
+    ]
+  }
+]

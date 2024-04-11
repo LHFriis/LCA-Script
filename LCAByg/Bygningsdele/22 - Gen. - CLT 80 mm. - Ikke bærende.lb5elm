@@ -1,0 +1,47 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "fe907724-76a8-427d-934a-c6586afe3279",
+        "name": {
+          "Danish": "22 / Gen. / CLT 80 mm. / Ikke bærende"
+        },
+        "source": "User",
+        "comment": {
+          "English": "",
+          "Danish": "",
+          "Norwegian": "",
+          "German": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "6776d1ee-0474-4bec-bb75-20ede7c512da",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "fe907724-76a8-427d-934a-c6586afe3279",
+      "3f86d918-e71a-542b-955b-4b935acd2c27"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "28240ab6-0c2b-4ed4-a1ff-0301fb749156"
+        }
+      },
+      "a9ab6709-61e1-46c1-a2e8-df00bdd0bb91",
+      "fe907724-76a8-427d-934a-c6586afe3279"
+    ]
+  }
+]

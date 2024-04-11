@@ -1,0 +1,169 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "0e5c554d-7abe-40a8-96e1-a433db0c5b5b",
+        "name": {
+          "Danish": "31 / Gen. / Vindue / Alu"
+        },
+        "source": "User",
+        "comment": {
+          "Danish": "",
+          "Norwegian": "",
+          "German": "",
+          "English": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "d289e339-20e0-48ae-ba5b-8c1d8205fc41",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "0e5c554d-7abe-40a8-96e1-a433db0c5b5b",
+      "514572c1-3734-42f4-b1a0-0cdbad5f3e40"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "0e5af47f-f64a-4490-894f-0bf8d2854c97"
+        }
+      },
+      "dcbf55db-3189-4d22-9b2b-2e27c057b363",
+      "0e5c554d-7abe-40a8-96e1-a433db0c5b5b"
+    ]
+  },
+  {
+    "Node": {
+      "Construction": {
+        "id": "514572c1-3734-42f4-b1a0-0cdbad5f3e40",
+        "name": {
+          "Danish": "Vindue, alu med 3-lags rude",
+          "English": "Frame, windows, aluminum (Clone)"
+        },
+        "unit": "M2",
+        "source": "User",
+        "comment": {
+          "English": "Window frames in aluminum consist of sill (2.87 m) and frame (2.76 m) in powder-coated aluminium and sealing in EPDM (5.8 m). Quantities are per m2 window based on reference window.",
+          "Danish": "Vindueskarm i aluminium består af karm (2,87 m) og ramme (2,76 m) i pulverlakeret aluminium samt tætningsliste i EPDM (5,8 m). Mængder er per m2 vindue baseret på referencevindue."
+        },
+        "locked": true
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "3b88b3a2-d4cc-4475-bf67-1601711f0b78",
+          "amount": 2.76,
+          "unit": "M",
+          "lifespan": 60,
+          "demolition": false,
+          "delayed_start": 0,
+          "enabled": true,
+          "excluded_scenarios": []
+        }
+      },
+      "514572c1-3734-42f4-b1a0-0cdbad5f3e40",
+      "8099069c-4ec0-5bd6-bcf0-cb8c27bbe42f"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "8d37f75f-e9dc-4406-851e-622e02b61f06",
+          "amount": 2.87,
+          "unit": "M",
+          "lifespan": 60,
+          "demolition": false,
+          "delayed_start": 0,
+          "enabled": true,
+          "excluded_scenarios": []
+        }
+      },
+      "514572c1-3734-42f4-b1a0-0cdbad5f3e40",
+      "70aeeaa6-1d88-5037-bf18-a1c5db1db40b"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "c7b6ae11-d781-46b5-a639-f94fa3e697f4",
+          "amount": 5.775,
+          "unit": "M",
+          "lifespan": 50,
+          "demolition": false,
+          "delayed_start": 0,
+          "enabled": true,
+          "excluded_scenarios": []
+        }
+      },
+      "514572c1-3734-42f4-b1a0-0cdbad5f3e40",
+      "12fd2daa-3f6d-5070-9ea6-e038acf97450"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "fbcdc3fa-7491-44b6-9eab-cb469b73c793",
+          "amount": 0.52,
+          "unit": "KG",
+          "lifespan": 50,
+          "demolition": false,
+          "delayed_start": 0,
+          "enabled": true,
+          "excluded_scenarios": []
+        }
+      },
+      "514572c1-3734-42f4-b1a0-0cdbad5f3e40",
+      "f010021b-d7fc-5ac1-ba2b-63f6c727cdb0"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "7b571b58-086b-4de4-96d6-4df8ba87838f",
+          "amount": 0.8,
+          "unit": "M2",
+          "lifespan": 25,
+          "demolition": false,
+          "delayed_start": 0,
+          "enabled": true,
+          "excluded_scenarios": []
+        }
+      },
+      "514572c1-3734-42f4-b1a0-0cdbad5f3e40",
+      "2633e48e-1e63-5765-aba6-aa6b6b683de0"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToConstruction": {
+          "id": "4f9907b1-a979-40e4-8cee-fd18327d591e",
+          "layers": [
+            1
+          ]
+        }
+      },
+      "dcbf55db-3189-4d22-9b2b-2e27c057b363",
+      "514572c1-3734-42f4-b1a0-0cdbad5f3e40"
+    ]
+  }
+]

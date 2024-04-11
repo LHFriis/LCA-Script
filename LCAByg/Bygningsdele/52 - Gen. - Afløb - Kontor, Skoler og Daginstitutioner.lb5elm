@@ -1,0 +1,47 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "2139bb83-86dc-472b-8d43-bd3f5f02a77e",
+        "name": {
+          "Danish": "52 / Gen. / Afløb / Kontor, Skoler og Daginstitutioner"
+        },
+        "source": "User",
+        "comment": {
+          "English": "",
+          "Danish": "",
+          "Norwegian": "",
+          "German": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "8846e544-1110-4c82-be49-37164ab46b7e",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "2139bb83-86dc-472b-8d43-bd3f5f02a77e",
+      "b36df4b8-ce14-4721-887d-0c91bf907664"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "3aa5a560-2ba6-4744-87ef-374f90659d6d"
+        }
+      },
+      "4f07b17d-254b-4914-bac6-871c424016b8",
+      "2139bb83-86dc-472b-8d43-bd3f5f02a77e"
+    ]
+  }
+]

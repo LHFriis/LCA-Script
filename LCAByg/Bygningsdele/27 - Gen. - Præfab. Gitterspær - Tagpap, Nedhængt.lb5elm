@@ -1,0 +1,77 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "c305fcfd-b8ca-4df2-8c44-ccf276723289",
+        "name": {
+          "Danish": "27 / Gen. / Præfab. Gitterspær / Tagpap, Nedhængt"
+        },
+        "source": "User",
+        "comment": {
+          "English": "",
+          "German": "",
+          "Norwegian": "",
+          "Danish": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "97e0a556-f36b-4f14-98ee-351fe870afc9",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "c305fcfd-b8ca-4df2-8c44-ccf276723289",
+      "b4aa08e3-fd38-514e-b32b-fb107e112a23"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "4cd9ee37-2f85-451f-96d5-bc5f85f5f055",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "c305fcfd-b8ca-4df2-8c44-ccf276723289",
+      "7a9e8077-12d3-4d58-9ab0-f66ccaaf1788"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "c02d097a-ee81-4ef5-a2e6-66257fde4484",
+          "amount": 0.8,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "c305fcfd-b8ca-4df2-8c44-ccf276723289",
+      "979863a7-4b7a-424c-a267-4f6ff34e901d"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "71cc8029-48d8-43c1-a6a6-13d11ce9196a"
+        }
+      },
+      "d734712a-d27d-42c5-936f-98fe4c4df90b",
+      "c305fcfd-b8ca-4df2-8c44-ccf276723289"
+    ]
+  }
+]

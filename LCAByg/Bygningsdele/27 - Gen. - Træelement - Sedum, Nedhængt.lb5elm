@@ -1,0 +1,77 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "30c240a4-8055-45e6-aa32-a0217065eab7",
+        "name": {
+          "Danish": "27 / Gen. / Træelement / Sedum, Nedhængt"
+        },
+        "source": "User",
+        "comment": {
+          "Norwegian": "",
+          "Danish": "",
+          "German": "",
+          "English": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "1da97e0c-ca65-4e2e-bdc5-5ac20137b8bc",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "30c240a4-8055-45e6-aa32-a0217065eab7",
+      "31b087b6-9a09-4338-aa0a-d2280c327cf2"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "3fc2e503-549f-4dff-a96c-0ceed2fef360",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "30c240a4-8055-45e6-aa32-a0217065eab7",
+      "039a6cfa-0e5f-5613-9751-087562dc2196"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "2d2d8346-f543-46bc-b435-1635bd27def3",
+          "amount": 0.8,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "30c240a4-8055-45e6-aa32-a0217065eab7",
+      "979863a7-4b7a-424c-a267-4f6ff34e901d"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "5bbdd4e1-3d6e-4335-be29-cf0f9a9727f7"
+        }
+      },
+      "d734712a-d27d-42c5-936f-98fe4c4df90b",
+      "30c240a4-8055-45e6-aa32-a0217065eab7"
+    ]
+  }
+]

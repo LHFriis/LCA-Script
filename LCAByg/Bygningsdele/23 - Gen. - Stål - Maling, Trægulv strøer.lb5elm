@@ -1,0 +1,77 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "c4f591b1-41fd-4807-b5fb-4dcb9e1fb3d5",
+        "name": {
+          "Danish": "23 / Gen. / Stål / Maling, Trægulv strøer"
+        },
+        "source": "User",
+        "comment": {
+          "German": "",
+          "English": "",
+          "Norwegian": "",
+          "Danish": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "17ef355e-c7e5-40a0-9467-b825edb9c509",
+          "amount": 0.8,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "c4f591b1-41fd-4807-b5fb-4dcb9e1fb3d5",
+      "e3b6a89e-31dd-4e24-a0de-6f3866a3f5b6"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "424b2744-2acd-48d1-bcdc-5cb827991b81",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "c4f591b1-41fd-4807-b5fb-4dcb9e1fb3d5",
+      "c9e91d56-1a3d-586c-975d-1dbed8dfdf90"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "2bdbb6cf-4049-45d5-9fa0-7275773e34a4",
+          "amount": 0.85,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "c4f591b1-41fd-4807-b5fb-4dcb9e1fb3d5",
+      "81f8cc96-b7b8-5f26-bec2-c4987f68749c"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "04238b38-6b0a-450f-8f86-7aafc693c605"
+        }
+      },
+      "f4c234ec-77f1-4ee0-92d0-f1819e0307d4",
+      "c4f591b1-41fd-4807-b5fb-4dcb9e1fb3d5"
+    ]
+  }
+]

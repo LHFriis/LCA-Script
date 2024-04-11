@@ -1,0 +1,47 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "edf14479-bb1f-4438-8c38-0327f0dd5073",
+        "name": {
+          "Danish": "5 / Gen. / Varme, Ventilation og Køl / Kontor, Skoler og Daginstitutioner"
+        },
+        "source": "User",
+        "comment": {
+          "Danish": "",
+          "Norwegian": "",
+          "German": "",
+          "English": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "d373a5f7-40fb-4e12-bb4f-9efdfdc8cb11",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "edf14479-bb1f-4438-8c38-0327f0dd5073",
+      "edf9539d-3e4b-42fc-9d06-02c294c5a0e5"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "1f317184-adec-4604-a266-1d083d1605f9"
+        }
+      },
+      "cf702d99-5d5a-4973-ba9c-c4dbfae656a9",
+      "edf14479-bb1f-4438-8c38-0327f0dd5073"
+    ]
+  }
+]

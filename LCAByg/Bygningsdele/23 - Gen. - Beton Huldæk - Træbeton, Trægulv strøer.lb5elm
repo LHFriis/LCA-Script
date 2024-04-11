@@ -1,0 +1,77 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "85d9754b-fd3e-4765-a940-ebece6526cf9",
+        "name": {
+          "Danish": "23 / Gen. / Beton Huldæk / Træbeton, Trægulv strøer"
+        },
+        "source": "User",
+        "comment": {
+          "Norwegian": "",
+          "Danish": "",
+          "German": "",
+          "English": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "88fe8b11-4051-4761-9ed1-1185b131c514",
+          "amount": 0.8,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "85d9754b-fd3e-4765-a940-ebece6526cf9",
+      "e3b6a89e-31dd-4e24-a0de-6f3866a3f5b6"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "ce624617-bfc9-46c3-a494-641cf9a5fd7b",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "85d9754b-fd3e-4765-a940-ebece6526cf9",
+      "1a865038-f98e-426c-b714-56147ff63ff8"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "c57f1636-f618-4fe2-b4e9-eb4f2071ef5f",
+          "amount": 0.85,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "85d9754b-fd3e-4765-a940-ebece6526cf9",
+      "81f8cc96-b7b8-5f26-bec2-c4987f68749c"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "819d7f66-7c42-4a39-b171-0849ae8e8971"
+        }
+      },
+      "f4c234ec-77f1-4ee0-92d0-f1819e0307d4",
+      "85d9754b-fd3e-4765-a940-ebece6526cf9"
+    ]
+  }
+]

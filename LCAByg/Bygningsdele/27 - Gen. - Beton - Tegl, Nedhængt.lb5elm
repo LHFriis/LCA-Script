@@ -1,0 +1,77 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "d7955aa7-dd3c-4993-ba36-2296e9b70946",
+        "name": {
+          "Danish": "27 / Gen. / Beton / Tegl, Nedhængt"
+        },
+        "source": "User",
+        "comment": {
+          "German": "",
+          "English": "",
+          "Norwegian": "",
+          "Danish": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "ca4d2760-cc47-4d75-b9e7-128838ee7e0e",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "d7955aa7-dd3c-4993-ba36-2296e9b70946",
+      "6fe12a41-b527-50da-9358-0c42539ec684"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "ddb77918-23dd-4a5c-b75b-a0419d2a83a3",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "d7955aa7-dd3c-4993-ba36-2296e9b70946",
+      "e70dafa3-d3ac-524d-bbf7-e46137a1585b"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "62e53efd-3949-4212-84c7-a4fa797c35ba",
+          "amount": 0.8,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "d7955aa7-dd3c-4993-ba36-2296e9b70946",
+      "979863a7-4b7a-424c-a267-4f6ff34e901d"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "dcd905fe-b44a-4cba-b582-222bb109f906"
+        }
+      },
+      "d734712a-d27d-42c5-936f-98fe4c4df90b",
+      "d7955aa7-dd3c-4993-ba36-2296e9b70946"
+    ]
+  }
+]

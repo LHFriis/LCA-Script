@@ -1,0 +1,47 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "20b86da0-7754-4a3e-885f-4ac3f8d08403",
+        "name": {
+          "Danish": "52 / Gen. / Afløb / Enfamiliehus"
+        },
+        "source": "User",
+        "comment": {
+          "German": "",
+          "English": "",
+          "Danish": "",
+          "Norwegian": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "9a5eeefb-238f-4c57-be47-e119c5ab4f1c",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "20b86da0-7754-4a3e-885f-4ac3f8d08403",
+      "388821b4-4bcc-4014-b0d1-6c22fa204f6f"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "30a256ce-f395-466b-ad19-0f2602ea3c2e"
+        }
+      },
+      "4f07b17d-254b-4914-bac6-871c424016b8",
+      "20b86da0-7754-4a3e-885f-4ac3f8d08403"
+    ]
+  }
+]

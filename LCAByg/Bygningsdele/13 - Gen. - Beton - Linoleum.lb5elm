@@ -1,0 +1,77 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "2f51a617-5423-49c9-85d3-baec982d329b",
+        "name": {
+          "Danish": "13 / Gen. / Beton / Linoleum"
+        },
+        "source": "User",
+        "comment": {
+          "Danish": "",
+          "Norwegian": "",
+          "German": "",
+          "English": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "a4dbee88-ea5d-49b7-9e5c-0a039e35e742",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "2f51a617-5423-49c9-85d3-baec982d329b",
+      "ee82edfa-d294-4f98-97c9-3ef5596cc1fd"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "aaca6762-9189-40ae-8923-2c237e7fd102",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "2f51a617-5423-49c9-85d3-baec982d329b",
+      "e322e452-3da2-40e0-9b7d-c00145c998fa"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "98249183-c1c5-407b-a217-2535eec80979",
+          "amount": 0.85,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "2f51a617-5423-49c9-85d3-baec982d329b",
+      "16d900d2-60d3-574f-848d-285421b22acd"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "84c4d847-7b57-443a-bb4a-9a0405e3cd55"
+        }
+      },
+      "2ffe16fd-f0c9-4d31-a31a-f96d58d3df95",
+      "2f51a617-5423-49c9-85d3-baec982d329b"
+    ]
+  }
+]

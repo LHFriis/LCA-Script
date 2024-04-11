@@ -1,0 +1,47 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "dab4c678-a1f1-436a-9dd6-97e11ca76817",
+        "name": {
+          "Danish": "31 / Gen. / Vindue / Træ-Alu"
+        },
+        "source": "User",
+        "comment": {
+          "Norwegian": "",
+          "English": "",
+          "German": "",
+          "Danish": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "c6454e06-fcfe-42b9-9ab0-21df5904d3d2",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "dab4c678-a1f1-436a-9dd6-97e11ca76817",
+      "011598e4-001f-497a-9a52-6a119f66fed4"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "adbf0500-97b8-490a-8cf5-34c3fb6fc3f2"
+        }
+      },
+      "dcbf55db-3189-4d22-9b2b-2e27c057b363",
+      "dab4c678-a1f1-436a-9dd6-97e11ca76817"
+    ]
+  }
+]

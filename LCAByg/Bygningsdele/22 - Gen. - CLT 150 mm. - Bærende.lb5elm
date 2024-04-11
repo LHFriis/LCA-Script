@@ -1,0 +1,47 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "864b7586-ce90-4312-b723-4b7e9748d73e",
+        "name": {
+          "Danish": "22 / Gen. / CLT 150 mm. / Bærende "
+        },
+        "source": "User",
+        "comment": {
+          "Danish": "",
+          "English": "",
+          "German": "",
+          "Norwegian": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "810137b3-6ddf-4210-82f5-2d6b2f50cde9",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "864b7586-ce90-4312-b723-4b7e9748d73e",
+      "93ac4477-f99e-5ac2-8ed8-0ac9dc506481"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "4db149b7-cb9c-4d95-9337-a0b03dcdd193"
+        }
+      },
+      "59ab59a5-2482-45ae-85f1-d0e39e640712",
+      "864b7586-ce90-4312-b723-4b7e9748d73e"
+    ]
+  }
+]

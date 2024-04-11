@@ -1,0 +1,77 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "70f93c3e-cc13-4603-bb9b-c620b6f12bd4",
+        "name": {
+          "Danish": "21 / Gen. / Beton 150 mm. / Traditionel Teglsten"
+        },
+        "source": "User",
+        "comment": {
+          "English": "",
+          "Danish": "",
+          "Norwegian": "",
+          "German": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "951ab703-43fd-4d12-a2a9-1b0bf1278ba3",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "70f93c3e-cc13-4603-bb9b-c620b6f12bd4",
+      "f2ce8b16-7c8e-56e0-8a85-136a20d3bb26"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "27013141-93b2-4a73-a49e-9aca5f932950",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "70f93c3e-cc13-4603-bb9b-c620b6f12bd4",
+      "6a653b7a-7c17-5bfe-a5f6-979686ab5a7d"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "78e05fd7-1dae-4094-ab7a-50d2ade91a5c",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "70f93c3e-cc13-4603-bb9b-c620b6f12bd4",
+      "9f4c228c-3507-5f6e-a993-2dc84ffb5319"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "6b42689e-667d-4f6c-b2f4-52a6d6be5dcf"
+        }
+      },
+      "10a52123-48d7-466a-9622-d463511a6df0",
+      "70f93c3e-cc13-4603-bb9b-c620b6f12bd4"
+    ]
+  }
+]

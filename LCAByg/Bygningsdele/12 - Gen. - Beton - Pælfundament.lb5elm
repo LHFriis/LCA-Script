@@ -1,0 +1,47 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "7b3b7ee3-16c6-4d66-a545-4754b168cecf",
+        "name": {
+          "Danish": "12 / Gen. / Beton / Pælfundament"
+        },
+        "source": "User",
+        "comment": {
+          "German": "",
+          "Norwegian": "",
+          "Danish": "",
+          "English": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "1e1bb672-a6e1-4593-be4f-88d957a20d68",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "7b3b7ee3-16c6-4d66-a545-4754b168cecf",
+      "d15d1d5c-609a-5ead-8449-5079a773f739"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "70627204-c1f3-4442-8b9f-fd881863fe35"
+        }
+      },
+      "270e865a-07e6-4dbd-b4ff-a5e90edeba60",
+      "7b3b7ee3-16c6-4d66-a545-4754b168cecf"
+    ]
+  }
+]

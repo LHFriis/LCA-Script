@@ -1,0 +1,128 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "819cdcdb-0d9a-4527-908c-a3b7373a3193",
+        "name": {
+          "Danish": "22 / Gen. / Træ / Ikke Bærende / Krydsfiner"
+        },
+        "source": "User",
+        "comment": {
+          "Norwegian": "",
+          "German": "",
+          "English": "",
+          "Danish": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "16cdf1c6-db22-4ce0-a2ad-e6248e818d8f",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "819cdcdb-0d9a-4527-908c-a3b7373a3193",
+      "2b43f2f7-1055-45c1-aade-a30826818289"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "16e41b0b-64be-4509-9eae-f6db2519dfa4",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "819cdcdb-0d9a-4527-908c-a3b7373a3193",
+      "f9bea86d-eac7-5aff-96b4-3f5bef9b4b48"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "e73f69e0-a311-47a4-93cd-a22ada3fcdee",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "819cdcdb-0d9a-4527-908c-a3b7373a3193",
+      "2b43f2f7-1055-45c1-aade-a30826818289"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "3f5ab81b-4d1b-4103-9aea-f0a9f8ed2c21"
+        }
+      },
+      "a9ab6709-61e1-46c1-a2e8-df00bdd0bb91",
+      "819cdcdb-0d9a-4527-908c-a3b7373a3193"
+    ]
+  },
+  {
+    "Node": {
+      "Construction": {
+        "id": "2b43f2f7-1055-45c1-aade-a30826818289",
+        "name": {
+          "Danish": "Vægside, krydsfiner",
+          "English": "Wall surface, plywood / plasterboard (Clone)"
+        },
+        "unit": "M2",
+        "source": "User",
+        "comment": {
+          "Danish": "Krydsfiner- / gipsplade består af 2 lag akrylmaling ovenpå forankringsgrunder og cementbaseret spartelmasse (5 mm). Herunder 13 mm gipsplade og 12 mm krydsfiner.",
+          "English": "Plywood / gypsum plaster board consists of 2 layers of acrylic paint on top of primer on cement-based plaster (5 mm). Underneath there is 13 mm gypsum plaster board and 12 mm plywood board."
+        },
+        "locked": true
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "d8da1980-0442-4315-aa47-b26c34cbccea",
+          "amount": 0.012,
+          "unit": "M3",
+          "lifespan": 100,
+          "demolition": false,
+          "delayed_start": 0,
+          "enabled": true,
+          "excluded_scenarios": []
+        }
+      },
+      "2b43f2f7-1055-45c1-aade-a30826818289",
+      "0f99aefe-0802-412f-a47b-bbc5fe5008fa"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToConstruction": {
+          "id": "89e89c02-6ba0-4c3f-a785-237e48f4af16",
+          "layers": [
+            1,
+            3
+          ]
+        }
+      },
+      "d401d419-f4f6-45b9-bb18-31658a9a223b",
+      "2b43f2f7-1055-45c1-aade-a30826818289"
+    ]
+  }
+]

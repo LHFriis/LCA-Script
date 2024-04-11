@@ -1,0 +1,47 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "c57ce841-ae78-4226-b07d-17f341700bc0",
+        "name": {
+          "Danish": "53 / Gen. / Vand / Rækkehus"
+        },
+        "source": "User",
+        "comment": {
+          "Norwegian": "",
+          "Danish": "",
+          "English": "",
+          "German": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "af868d16-aba4-41c8-9f2f-18f88ecde7ea",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "c57ce841-ae78-4226-b07d-17f341700bc0",
+      "2616804a-efa8-4b03-af7d-1bdae43e9534"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "c355bdcd-900f-445c-87c0-69143fdb9690"
+        }
+      },
+      "16528722-ecc6-4a69-a269-35ba3e1205b2",
+      "c57ce841-ae78-4226-b07d-17f341700bc0"
+    ]
+  }
+]

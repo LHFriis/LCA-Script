@@ -1,0 +1,77 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "8c6d4fb9-d161-4c1b-b0ba-e85508f0ac53",
+        "name": {
+          "Danish": "22 / Gen. / Træ / Ikke Bærende / Gips 2 Lags"
+        },
+        "source": "User",
+        "comment": {
+          "English": "",
+          "German": "",
+          "Danish": "",
+          "Norwegian": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "417b5889-f2ce-4743-95a4-3aad5e4c2153",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "8c6d4fb9-d161-4c1b-b0ba-e85508f0ac53",
+      "02fb33ce-fb37-5fe1-a8c6-ec3b283c64ee"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "73ba3772-92cb-4004-b99b-a06870ff8622",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "8c6d4fb9-d161-4c1b-b0ba-e85508f0ac53",
+      "f9bea86d-eac7-5aff-96b4-3f5bef9b4b48"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "c710eeae-c269-4dfe-be8d-c372d225cf8e",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "8c6d4fb9-d161-4c1b-b0ba-e85508f0ac53",
+      "02fb33ce-fb37-5fe1-a8c6-ec3b283c64ee"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "289ad6f6-1833-46b2-9836-beb60ca788a3"
+        }
+      },
+      "a9ab6709-61e1-46c1-a2e8-df00bdd0bb91",
+      "8c6d4fb9-d161-4c1b-b0ba-e85508f0ac53"
+    ]
+  }
+]

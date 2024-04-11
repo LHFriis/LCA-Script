@@ -1,0 +1,47 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "01f89c33-03aa-436e-bb9c-b6d428a916b5",
+        "name": {
+          "Danish": "53 / Gen. / Vand / Kontor, Skoler og Daginstitutioner"
+        },
+        "source": "User",
+        "comment": {
+          "German": "",
+          "Danish": "",
+          "English": "",
+          "Norwegian": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "10d2a506-2c9e-48a0-8ef4-e0e64712b586",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "01f89c33-03aa-436e-bb9c-b6d428a916b5",
+      "e6ac463a-2546-4191-97b7-52388fc838f6"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "bdaaa0e5-8784-47ed-8126-1bd51b8b3505"
+        }
+      },
+      "16528722-ecc6-4a69-a269-35ba3e1205b2",
+      "01f89c33-03aa-436e-bb9c-b6d428a916b5"
+    ]
+  }
+]

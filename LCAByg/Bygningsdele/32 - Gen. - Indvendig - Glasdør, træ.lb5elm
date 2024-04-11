@@ -1,0 +1,47 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "7c2e7eb4-1988-4b33-a415-f7491e0b193c",
+        "name": {
+          "Danish": "32 / Gen. / Indvendig / Glasdør, træ"
+        },
+        "source": "User",
+        "comment": {
+          "German": "",
+          "Danish": "",
+          "English": "",
+          "Norwegian": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "ce110f43-3d73-4ab5-a1f1-f9ffb9c94bda",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "7c2e7eb4-1988-4b33-a415-f7491e0b193c",
+      "92fee8be-a171-4957-a73c-990e120e2d60"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "7624590e-91e4-4398-9d15-9453b19bf34e"
+        }
+      },
+      "9bd14e05-5fba-4ecb-ab41-7940a8a0dbdc",
+      "7c2e7eb4-1988-4b33-a415-f7491e0b193c"
+    ]
+  }
+]

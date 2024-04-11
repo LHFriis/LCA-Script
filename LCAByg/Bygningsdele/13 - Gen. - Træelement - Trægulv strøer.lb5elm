@@ -1,0 +1,143 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "4fc776b7-788c-406f-b5ac-fa3030a1bd68",
+        "name": {
+          "Danish": "13 / Gen. / Træelement / Trægulv strøer"
+        },
+        "source": "User",
+        "comment": {
+          "Norwegian": "",
+          "German": "",
+          "English": "",
+          "Danish": "OBS! Denne konstruktion skal IKKE i jorden, men skal løftes over terræn!"
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "8b2a95db-822b-451d-a57c-f585a6ae39fb",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "4fc776b7-788c-406f-b5ac-fa3030a1bd68",
+      "70bd3ca5-7094-5197-a8c1-d0fe91efe27b"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "3e99e306-a5a5-4501-bcb5-6da48031af05",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "4fc776b7-788c-406f-b5ac-fa3030a1bd68",
+      "08c91ad6-4e19-4a74-88d0-30cde8f72b22"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "65d19ee9-81ee-4568-9ab2-89e804c71352",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "4fc776b7-788c-406f-b5ac-fa3030a1bd68",
+      "1d4bb806-118e-4d94-925d-23469f7df4ab"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "395b2906-cabd-42c7-8432-34cf7dc7a48d",
+          "amount": 0.85,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "4fc776b7-788c-406f-b5ac-fa3030a1bd68",
+      "81f8cc96-b7b8-5f26-bec2-c4987f68749c"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "6ae6777a-dbdf-48c4-861e-3a243db0c77e"
+        }
+      },
+      "2ffe16fd-f0c9-4d31-a31a-f96d58d3df95",
+      "4fc776b7-788c-406f-b5ac-fa3030a1bd68"
+    ]
+  },
+  {
+    "Node": {
+      "Construction": {
+        "id": "1d4bb806-118e-4d94-925d-23469f7df4ab",
+        "name": {
+          "Danish": "OSB plade"
+        },
+        "unit": "M2",
+        "source": "User",
+        "comment": {
+          "Norwegian": "",
+          "Danish": "",
+          "German": "",
+          "English": ""
+        },
+        "locked": false
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "14ea9db6-fe5f-4423-ac2e-270badf98535",
+          "amount": 0.012,
+          "unit": "M3",
+          "lifespan": 60,
+          "demolition": false,
+          "delayed_start": 0,
+          "enabled": true,
+          "excluded_scenarios": []
+        }
+      },
+      "1d4bb806-118e-4d94-925d-23469f7df4ab",
+      "58c088b7-0a08-5c26-9022-e1d2d84cd31d"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToConstruction": {
+          "id": "914c0274-8186-48ee-ba59-ed62c4354171",
+          "layers": [
+            1
+          ]
+        }
+      },
+      "069983d0-d08b-405b-b816-d28ca9648956",
+      "1d4bb806-118e-4d94-925d-23469f7df4ab"
+    ]
+  }
+]

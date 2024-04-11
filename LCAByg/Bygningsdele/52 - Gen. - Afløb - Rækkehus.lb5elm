@@ -1,0 +1,47 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "9abcf14b-0cda-445b-b201-6fb6f76025cd",
+        "name": {
+          "Danish": "52 / Gen. / Afløb / Rækkehus"
+        },
+        "source": "User",
+        "comment": {
+          "Danish": "",
+          "English": "",
+          "Norwegian": "",
+          "German": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "e20487ef-5529-4b18-bf31-de0084215d55",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "9abcf14b-0cda-445b-b201-6fb6f76025cd",
+      "b46ed768-5825-4e93-9640-cffb36c24b2f"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "236e47b3-afea-41d3-9d9b-131f74b2d06f"
+        }
+      },
+      "4f07b17d-254b-4914-bac6-871c424016b8",
+      "9abcf14b-0cda-445b-b201-6fb6f76025cd"
+    ]
+  }
+]

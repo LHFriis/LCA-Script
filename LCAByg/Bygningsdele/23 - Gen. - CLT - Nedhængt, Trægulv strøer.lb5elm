@@ -1,0 +1,77 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "9e1a339b-3b63-4d4b-96d6-efc877672830",
+        "name": {
+          "Danish": "23 / Gen. / CLT / Nedhængt, Trægulv strøer"
+        },
+        "source": "User",
+        "comment": {
+          "Norwegian": "",
+          "Danish": "",
+          "English": "",
+          "German": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "f185de12-9315-42a4-9f26-49a3f2895143",
+          "amount": 0.8,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "9e1a339b-3b63-4d4b-96d6-efc877672830",
+      "979863a7-4b7a-424c-a267-4f6ff34e901d"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "262e2423-e0e7-4c09-be48-6060e81faf1a",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "9e1a339b-3b63-4d4b-96d6-efc877672830",
+      "bdfeb671-c6cb-52e7-8fc3-8e4dde179d1d"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "c55b9c8a-8792-42a5-bfdc-2426ee7ed91c",
+          "amount": 0.85,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "9e1a339b-3b63-4d4b-96d6-efc877672830",
+      "81f8cc96-b7b8-5f26-bec2-c4987f68749c"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "c9099f66-c309-440b-9d3a-e409a97da805"
+        }
+      },
+      "f4c234ec-77f1-4ee0-92d0-f1819e0307d4",
+      "9e1a339b-3b63-4d4b-96d6-efc877672830"
+    ]
+  }
+]

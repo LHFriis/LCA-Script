@@ -1,0 +1,115 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "2f6a756e-3ab0-4f90-a6b6-c45bdc4ef579",
+        "name": {
+          "Danish": "31 / Gen. / Glasfacade / Alu"
+        },
+        "source": "User",
+        "comment": {
+          "English": "",
+          "Danish": "",
+          "Norwegian": "",
+          "German": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "5a996abd-776a-42c3-8869-6bab06509f43",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "2f6a756e-3ab0-4f90-a6b6-c45bdc4ef579",
+      "964f8e34-4081-420f-8772-3ca2007e7b32"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "b9811a49-2fe5-46c0-92a3-e779903f2f7c"
+        }
+      },
+      "caa0d6a5-228f-44cb-9766-04056b28a825",
+      "2f6a756e-3ab0-4f90-a6b6-c45bdc4ef579"
+    ]
+  },
+  {
+    "Node": {
+      "Construction": {
+        "id": "964f8e34-4081-420f-8772-3ca2007e7b32",
+        "name": {
+          "Danish": "Glasfacade, curtain wall, aluminium",
+          "English": "Frame, curtain wall facade, aluminum (Clone)"
+        },
+        "unit": "M2",
+        "source": "User",
+        "comment": {
+          "Danish": "Facadesystem i aluminium med profiler, fastgørelsesmidler og tætninger.",
+          "English": "Facade system in aluminum with profiles, fasteners and sealing."
+        },
+        "locked": true
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "3a5f6837-e785-4a9c-af8e-72b1937c607f",
+          "amount": 1.3,
+          "unit": "M",
+          "lifespan": 60,
+          "demolition": false,
+          "delayed_start": 0,
+          "enabled": true,
+          "excluded_scenarios": []
+        }
+      },
+      "964f8e34-4081-420f-8772-3ca2007e7b32",
+      "f0b3b24d-f691-5512-b1d2-41b76758c282"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "a45a0803-c1b0-4e99-92e1-60c7f3aeef4a",
+          "amount": 0.8,
+          "unit": "M2",
+          "lifespan": 25,
+          "demolition": false,
+          "delayed_start": 0,
+          "enabled": true,
+          "excluded_scenarios": []
+        }
+      },
+      "964f8e34-4081-420f-8772-3ca2007e7b32",
+      "2633e48e-1e63-5765-aba6-aa6b6b683de0"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToConstruction": {
+          "id": "2ec72aa2-70f7-48ba-a01f-c0a4da6b46cd",
+          "layers": [
+            1
+          ]
+        }
+      },
+      "caa0d6a5-228f-44cb-9766-04056b28a825",
+      "964f8e34-4081-420f-8772-3ca2007e7b32"
+    ]
+  }
+]

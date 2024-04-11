@@ -1,0 +1,47 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "80ef87b3-5e18-4867-98ad-667782e39a80",
+        "name": {
+          "Danish": "5 / Gen. / Varme, Ventilation og Køl / Etagebolig"
+        },
+        "source": "User",
+        "comment": {
+          "English": "",
+          "German": "",
+          "Norwegian": "",
+          "Danish": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "eb6ccad3-b654-45dc-8790-b302f8d892b5",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "80ef87b3-5e18-4867-98ad-667782e39a80",
+      "c944dda4-776c-4175-8879-11076201cce7"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "861de093-5060-4e30-8f90-a8d13a76ccb4"
+        }
+      },
+      "cf702d99-5d5a-4973-ba9c-c4dbfae656a9",
+      "80ef87b3-5e18-4867-98ad-667782e39a80"
+    ]
+  }
+]

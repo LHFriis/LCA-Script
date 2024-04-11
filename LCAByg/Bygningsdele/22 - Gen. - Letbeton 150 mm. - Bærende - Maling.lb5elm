@@ -1,0 +1,77 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "ee3b6c51-c34f-4376-8218-e71763151dc4",
+        "name": {
+          "Danish": "22 / Gen. / Letbeton 150 mm. / Bærende / Maling"
+        },
+        "source": "User",
+        "comment": {
+          "German": "",
+          "Norwegian": "",
+          "English": "",
+          "Danish": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "92d232ac-65d5-45e4-bf1d-cc47ff295093",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "ee3b6c51-c34f-4376-8218-e71763151dc4",
+      "9f4c228c-3507-5f6e-a993-2dc84ffb5319"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "b8cb2d72-b9af-4b84-8147-f7bbd2997218",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "ee3b6c51-c34f-4376-8218-e71763151dc4",
+      "4dad650a-8242-5c8d-b917-79706848a104"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "6d090481-e025-4e72-a898-9a612f795735",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "ee3b6c51-c34f-4376-8218-e71763151dc4",
+      "9f4c228c-3507-5f6e-a993-2dc84ffb5319"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "d99067b1-f02d-4c52-93c2-3b850575e509"
+        }
+      },
+      "59ab59a5-2482-45ae-85f1-d0e39e640712",
+      "ee3b6c51-c34f-4376-8218-e71763151dc4"
+    ]
+  }
+]

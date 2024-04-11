@@ -1,0 +1,47 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "f382eaa9-eaf4-405a-b4aa-6251d2153aa0",
+        "name": {
+          "Danish": "52 / Gen. / Afløb / Øvrige bygninger"
+        },
+        "source": "User",
+        "comment": {
+          "English": "",
+          "Norwegian": "",
+          "German": "",
+          "Danish": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "edd9a655-fe12-4202-911e-cfc5d86fd07c",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "f382eaa9-eaf4-405a-b4aa-6251d2153aa0",
+      "1d623adc-d131-4138-8320-5f0e728cc899"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "9cffda90-d9b1-48d7-9155-bf637e35df5b"
+        }
+      },
+      "4f07b17d-254b-4914-bac6-871c424016b8",
+      "f382eaa9-eaf4-405a-b4aa-6251d2153aa0"
+    ]
+  }
+]

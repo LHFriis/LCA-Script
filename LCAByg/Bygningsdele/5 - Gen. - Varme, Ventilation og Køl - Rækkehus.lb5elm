@@ -1,0 +1,47 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "43445f29-7688-4254-8fe8-d0af6ab0cf11",
+        "name": {
+          "Danish": "5 / Gen. / Varme, Ventilation og Køl / Rækkehus"
+        },
+        "source": "User",
+        "comment": {
+          "English": "",
+          "German": "",
+          "Norwegian": "",
+          "Danish": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "c59bc281-d213-4446-96f1-58d510abb622",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "43445f29-7688-4254-8fe8-d0af6ab0cf11",
+      "42c45649-a78c-4cda-82b2-e9e0ab090b71"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "6363b1a4-aa66-489e-b104-d4c7c45849f2"
+        }
+      },
+      "cf702d99-5d5a-4973-ba9c-c4dbfae656a9",
+      "43445f29-7688-4254-8fe8-d0af6ab0cf11"
+    ]
+  }
+]

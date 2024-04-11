@@ -1,0 +1,77 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "0a5150af-91a5-40ef-99d0-ad288ffdb489",
+        "name": {
+          "Danish": "23 / Gen. / Hybrid / Maling, Trægulv svømmende"
+        },
+        "source": "User",
+        "comment": {
+          "English": "",
+          "Norwegian": "",
+          "German": "",
+          "Danish": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "42093ac4-36df-4881-a900-0909ef294c2e",
+          "amount": 0.8,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "0a5150af-91a5-40ef-99d0-ad288ffdb489",
+      "007e635c-a219-5437-b97e-b0953fa3fa75"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "156dffc0-06cc-4f30-95a0-d0eb852be31f",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "0a5150af-91a5-40ef-99d0-ad288ffdb489",
+      "ae42f234-f459-5e23-9140-6c29bf565ecd"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "e2fce1f7-7986-4257-b55f-76c66dbaeeed",
+          "amount": 0.85,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "0a5150af-91a5-40ef-99d0-ad288ffdb489",
+      "81f8cc96-b7b8-5f26-bec2-c4987f68749c"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "d51bdd4b-715c-443c-892a-7c12e8f98b5e"
+        }
+      },
+      "f4c234ec-77f1-4ee0-92d0-f1819e0307d4",
+      "0a5150af-91a5-40ef-99d0-ad288ffdb489"
+    ]
+  }
+]

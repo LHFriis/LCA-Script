@@ -1,0 +1,77 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "0bb32cae-7882-4186-a158-7440cc79f6a7",
+        "name": {
+          "Danish": "27 / Gen. / Præfab. Gitterspær / Sedum, Nedhængt"
+        },
+        "source": "User",
+        "comment": {
+          "Danish": "",
+          "German": "",
+          "English": "",
+          "Norwegian": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "6ad8b65e-6150-41cc-97be-1839bd81e810",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "0bb32cae-7882-4186-a158-7440cc79f6a7",
+      "31b087b6-9a09-4338-aa0a-d2280c327cf2"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "5a534bff-2068-426d-b4bc-b66b098bf882",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "0bb32cae-7882-4186-a158-7440cc79f6a7",
+      "7a9e8077-12d3-4d58-9ab0-f66ccaaf1788"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "c91bc233-2449-4ba4-842a-8429afe743e9",
+          "amount": 0.8,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "0bb32cae-7882-4186-a158-7440cc79f6a7",
+      "979863a7-4b7a-424c-a267-4f6ff34e901d"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "56b1110f-ec40-4432-abbc-01ed9a72d2b8"
+        }
+      },
+      "d734712a-d27d-42c5-936f-98fe4c4df90b",
+      "0bb32cae-7882-4186-a158-7440cc79f6a7"
+    ]
+  }
+]

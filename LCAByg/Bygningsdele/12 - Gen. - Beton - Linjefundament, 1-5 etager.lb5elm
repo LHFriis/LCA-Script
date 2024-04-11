@@ -1,0 +1,47 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "94f07725-cd7c-49d9-9913-d9770858bf75",
+        "name": {
+          "Danish": "12 / Gen. / Beton / Linjefundament, 1-5 etager"
+        },
+        "source": "User",
+        "comment": {
+          "Norwegian": "",
+          "German": "",
+          "English": "",
+          "Danish": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "fc67b0bb-04d0-4bdb-a63b-3b1d8e44b86b",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "94f07725-cd7c-49d9-9913-d9770858bf75",
+      "7165537e-22da-54a5-88f7-4d22932b6cc5"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "a37464d6-246e-4a7c-9e76-a37c4bf89f4e"
+        }
+      },
+      "1a966c7c-fd7c-4abc-9d4b-307fdcd0cc88",
+      "94f07725-cd7c-49d9-9913-d9770858bf75"
+    ]
+  }
+]

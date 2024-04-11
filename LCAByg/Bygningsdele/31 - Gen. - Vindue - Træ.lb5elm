@@ -1,0 +1,169 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "48a366cc-bd9c-41fd-8ef2-d34afa3dc2b6",
+        "name": {
+          "Danish": "31 / Gen. / Vindue / Træ"
+        },
+        "source": "User",
+        "comment": {
+          "English": "",
+          "German": "",
+          "Danish": "",
+          "Norwegian": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "ce6adcad-55e6-4e38-a107-d40d61dca0d2",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "48a366cc-bd9c-41fd-8ef2-d34afa3dc2b6",
+      "b508acd8-3205-4664-8126-0e763fb062eb"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "4008a004-3436-4894-b070-a8a3210f172e"
+        }
+      },
+      "dcbf55db-3189-4d22-9b2b-2e27c057b363",
+      "48a366cc-bd9c-41fd-8ef2-d34afa3dc2b6"
+    ]
+  },
+  {
+    "Node": {
+      "Construction": {
+        "id": "b508acd8-3205-4664-8126-0e763fb062eb",
+        "name": {
+          "English": "window,timber with 3-layer pane (Clone)",
+          "Danish": "Vindue, træ med 3-lags rude"
+        },
+        "unit": "M2",
+        "source": "User",
+        "comment": {
+          "English": "The window consists of a 1 m2 3-layer pane with a wooden window frame consisting of a s (2.87 m) and frame (2.76 m) in painted wood and a sealing strip in EPDM (5.8 m). Quantities are per m2 window based on the reference window.",
+          "Danish": "Vinduet består af 1 m2 3-lags rude med vindueskarm i træ der består af karm (2,87 m) og ramme (2,76 m) i malet træ samt tætningsliste i EPDM (5,8 m). Mængder er per m2 vindue baseret på referencevindue."
+        },
+        "locked": true
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "b3c005ca-5969-42c0-862d-61b32f05a7b4",
+          "amount": 2.87,
+          "unit": "M",
+          "lifespan": 50,
+          "demolition": false,
+          "delayed_start": 0,
+          "enabled": true,
+          "excluded_scenarios": []
+        }
+      },
+      "b508acd8-3205-4664-8126-0e763fb062eb",
+      "c0614968-6549-5971-b267-0a35252f0c44"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "ce793756-b22b-4e58-9b5e-1a01cdd73c89",
+          "amount": 2.76,
+          "unit": "M",
+          "lifespan": 50,
+          "demolition": false,
+          "delayed_start": 0,
+          "enabled": true,
+          "excluded_scenarios": []
+        }
+      },
+      "b508acd8-3205-4664-8126-0e763fb062eb",
+      "603ff4d5-04e4-52bf-bb91-a9d0411be633"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "59391b7c-43a1-437c-86bf-68f1b17881a4",
+          "amount": 5.775,
+          "unit": "M",
+          "lifespan": 50,
+          "demolition": false,
+          "delayed_start": 0,
+          "enabled": true,
+          "excluded_scenarios": []
+        }
+      },
+      "b508acd8-3205-4664-8126-0e763fb062eb",
+      "12fd2daa-3f6d-5070-9ea6-e038acf97450"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "d0a0d412-848d-42b6-b105-fbac0ea3ed82",
+          "amount": 0.8,
+          "unit": "M2",
+          "lifespan": 25,
+          "demolition": false,
+          "delayed_start": 0,
+          "enabled": true,
+          "excluded_scenarios": []
+        }
+      },
+      "b508acd8-3205-4664-8126-0e763fb062eb",
+      "2633e48e-1e63-5765-aba6-aa6b6b683de0"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "d91d52a1-e1b7-413e-b638-b3760cea1026",
+          "amount": 0.52,
+          "unit": "KG",
+          "lifespan": 50,
+          "demolition": false,
+          "delayed_start": 0,
+          "enabled": true,
+          "excluded_scenarios": []
+        }
+      },
+      "b508acd8-3205-4664-8126-0e763fb062eb",
+      "f010021b-d7fc-5ac1-ba2b-63f6c727cdb0"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToConstruction": {
+          "id": "03b2e6c3-f153-4644-97ed-c5636a1db4fb",
+          "layers": [
+            1
+          ]
+        }
+      },
+      "dcbf55db-3189-4d22-9b2b-2e27c057b363",
+      "b508acd8-3205-4664-8126-0e763fb062eb"
+    ]
+  }
+]

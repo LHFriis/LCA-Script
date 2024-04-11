@@ -1,0 +1,47 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "83c1bfb4-3d6e-4b5e-b867-331e37ddb0bd",
+        "name": {
+          "Danish": "52 / Gen. / Afløb / Etagebolig"
+        },
+        "source": "User",
+        "comment": {
+          "German": "",
+          "English": "",
+          "Danish": "",
+          "Norwegian": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "ab017cfa-b19b-414d-9a08-612894f3981b",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "83c1bfb4-3d6e-4b5e-b867-331e37ddb0bd",
+      "b1601c7b-098a-4843-8dfb-0db4b84d039a"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "79bdfec6-63bf-41ca-a591-5f47abb4a2ff"
+        }
+      },
+      "4f07b17d-254b-4914-bac6-871c424016b8",
+      "83c1bfb4-3d6e-4b5e-b867-331e37ddb0bd"
+    ]
+  }
+]

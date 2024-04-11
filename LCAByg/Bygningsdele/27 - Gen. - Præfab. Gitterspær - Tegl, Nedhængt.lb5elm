@@ -1,0 +1,77 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "f0738561-97cc-4c0b-8ad0-cd19bd5eda7f",
+        "name": {
+          "Danish": "27 / Gen. / Præfab. Gitterspær / Tegl, Nedhængt"
+        },
+        "source": "User",
+        "comment": {
+          "Danish": "",
+          "English": "",
+          "German": "",
+          "Norwegian": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "b1384319-643b-4569-9b3b-513438afd2c2",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "f0738561-97cc-4c0b-8ad0-cd19bd5eda7f",
+      "6fe12a41-b527-50da-9358-0c42539ec684"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "5a2886ef-b50a-4447-bc13-a142e2e852de",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "f0738561-97cc-4c0b-8ad0-cd19bd5eda7f",
+      "7a9e8077-12d3-4d58-9ab0-f66ccaaf1788"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "f389c04b-7b2e-4b50-9f17-baf9fb969e3b",
+          "amount": 0.8,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "f0738561-97cc-4c0b-8ad0-cd19bd5eda7f",
+      "979863a7-4b7a-424c-a267-4f6ff34e901d"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "05814f69-eb71-44e0-b237-a2ef2c6c69f0"
+        }
+      },
+      "d734712a-d27d-42c5-936f-98fe4c4df90b",
+      "f0738561-97cc-4c0b-8ad0-cd19bd5eda7f"
+    ]
+  }
+]

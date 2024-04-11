@@ -1,0 +1,77 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "494bd8a7-4aa1-453a-88c4-84ad99d66486",
+        "name": {
+          "Danish": "22 / Gen. / Beton 150 mm. / Bærende / Maling"
+        },
+        "source": "User",
+        "comment": {
+          "German": "",
+          "Norwegian": "",
+          "English": "",
+          "Danish": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "5e225156-761b-4cba-ab40-083c01d8e213",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "494bd8a7-4aa1-453a-88c4-84ad99d66486",
+      "9f4c228c-3507-5f6e-a993-2dc84ffb5319"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "17435032-3503-45c4-9684-bcc0e370c974",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "494bd8a7-4aa1-453a-88c4-84ad99d66486",
+      "19ed35d4-12f8-5f12-930c-77d01b161355"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "cd73b357-5b41-4153-b32c-a09da7762aea",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "494bd8a7-4aa1-453a-88c4-84ad99d66486",
+      "9f4c228c-3507-5f6e-a993-2dc84ffb5319"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "2a271b31-c194-4744-920e-dea2cdd511c9"
+        }
+      },
+      "59ab59a5-2482-45ae-85f1-d0e39e640712",
+      "494bd8a7-4aa1-453a-88c4-84ad99d66486"
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "a65b66f4-20da-4c62-bfa1-3881b033fb52",
+        "name": {
+          "Danish": "5 / Gen. / Varme, Ventilation og Køl / Øvrige bygninger"
+        },
+        "source": "User",
+        "comment": {
+          "Norwegian": "",
+          "German": "",
+          "Danish": "",
+          "English": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "473819c1-ee9e-4785-84f9-3f9ec4587c31",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "a65b66f4-20da-4c62-bfa1-3881b033fb52",
+      "d9c1a0f1-0e81-4ca2-b557-e646736292d5"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "aab28355-ce6b-4986-b94d-b73e685fec2b"
+        }
+      },
+      "cf702d99-5d5a-4973-ba9c-c4dbfae656a9",
+      "a65b66f4-20da-4c62-bfa1-3881b033fb52"
+    ]
+  }
+]

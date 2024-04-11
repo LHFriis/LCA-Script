@@ -1,0 +1,77 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "7ecec1fd-23e5-4b04-83fe-151510e81524",
+        "name": {
+          "Danish": "23 / Gen. / CLT / Træbeton, Trægulv strøer"
+        },
+        "source": "User",
+        "comment": {
+          "Danish": "",
+          "German": "",
+          "English": "",
+          "Norwegian": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "6d44779e-2d05-4b6b-ad04-329644721675",
+          "amount": 0.8,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "7ecec1fd-23e5-4b04-83fe-151510e81524",
+      "e3b6a89e-31dd-4e24-a0de-6f3866a3f5b6"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "7160adb6-2262-4d9e-a2d3-f6af87287c14",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "7ecec1fd-23e5-4b04-83fe-151510e81524",
+      "bdfeb671-c6cb-52e7-8fc3-8e4dde179d1d"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "79bff3cf-5d65-4b89-aa98-d5c27d44c21d",
+          "amount": 0.85,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "7ecec1fd-23e5-4b04-83fe-151510e81524",
+      "81f8cc96-b7b8-5f26-bec2-c4987f68749c"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "d97e51cb-7946-4f33-9341-0c7147324bc2"
+        }
+      },
+      "f4c234ec-77f1-4ee0-92d0-f1819e0307d4",
+      "7ecec1fd-23e5-4b04-83fe-151510e81524"
+    ]
+  }
+]

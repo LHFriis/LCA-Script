@@ -1,0 +1,115 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "88e2f0b5-3753-453b-8f20-21ceabe19f41",
+        "name": {
+          "Danish": "31 / Gen. / Glasfacade / Stål"
+        },
+        "source": "User",
+        "comment": {
+          "Norwegian": "",
+          "Danish": "",
+          "German": "",
+          "English": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "0e119913-c786-4603-9899-26e56e0dcb1f",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "88e2f0b5-3753-453b-8f20-21ceabe19f41",
+      "0e2e0056-e71e-4342-bcac-fd7381e79498"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "c0bf8d5d-4096-4c6a-934c-d198b42ae5ce"
+        }
+      },
+      "caa0d6a5-228f-44cb-9766-04056b28a825",
+      "88e2f0b5-3753-453b-8f20-21ceabe19f41"
+    ]
+  },
+  {
+    "Node": {
+      "Construction": {
+        "id": "0e2e0056-e71e-4342-bcac-fd7381e79498",
+        "name": {
+          "Danish": "Glasfacade, curtain wall, stål",
+          "English": "Frame, curtain wall facade, steel (Clone)"
+        },
+        "unit": "M2",
+        "source": "User",
+        "comment": {
+          "English": "Facade system in steel with profiles, fasteners and sealing.",
+          "Danish": "Facadesystem i stål med profiler, fastgørelsesmidler og tætninger."
+        },
+        "locked": true
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "802e04ce-d1d5-432d-ae91-51e7f336da67",
+          "amount": 1.3,
+          "unit": "M",
+          "lifespan": 60,
+          "demolition": false,
+          "delayed_start": 0,
+          "enabled": true,
+          "excluded_scenarios": []
+        }
+      },
+      "0e2e0056-e71e-4342-bcac-fd7381e79498",
+      "9361290b-5650-5d0f-81fe-9ed2c487720c"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "3e964c05-4e0f-464f-9cfb-f4a73f2e7001",
+          "amount": 0.8,
+          "unit": "M2",
+          "lifespan": 25,
+          "demolition": false,
+          "delayed_start": 0,
+          "enabled": true,
+          "excluded_scenarios": []
+        }
+      },
+      "0e2e0056-e71e-4342-bcac-fd7381e79498",
+      "2633e48e-1e63-5765-aba6-aa6b6b683de0"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToConstruction": {
+          "id": "3ed8b020-7215-4459-8f59-221f59005403",
+          "layers": [
+            1
+          ]
+        }
+      },
+      "caa0d6a5-228f-44cb-9766-04056b28a825",
+      "0e2e0056-e71e-4342-bcac-fd7381e79498"
+    ]
+  }
+]

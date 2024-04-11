@@ -1,0 +1,47 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "f1287f91-75f3-442e-b796-e7916979df54",
+        "name": {
+          "Danish": "12 / Gen. / Stål / Skruefundament"
+        },
+        "source": "User",
+        "comment": {
+          "German": "",
+          "Norwegian": "",
+          "Danish": "",
+          "English": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "e29269b2-be0e-47b8-aeb7-f21f7220bb7a",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "f1287f91-75f3-442e-b796-e7916979df54",
+      "c149e5c0-027f-574a-bfc4-887e0391f583"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "1b5d8607-068f-47be-91d8-99eb2208bd05"
+        }
+      },
+      "e5f1c0f4-431e-4722-919f-35b15793f061",
+      "f1287f91-75f3-442e-b796-e7916979df54"
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "e0de28ad-02aa-4dd2-8afb-e6b4dd9fa82e",
+        "name": {
+          "Danish": "12 / Gen. / Beton / Blokfundament, 1-5 etager"
+        },
+        "source": "User",
+        "comment": {
+          "German": "",
+          "Norwegian": "",
+          "English": "",
+          "Danish": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "a7877fe3-848b-4a6c-bbc5-c3a4f8d5983c",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "e0de28ad-02aa-4dd2-8afb-e6b4dd9fa82e",
+      "4f2090fe-4942-4102-991b-c25c3c4eb39d"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "3f77a214-fea8-474b-b742-811c37ca634b"
+        }
+      },
+      "1a966c7c-fd7c-4abc-9d4b-307fdcd0cc88",
+      "e0de28ad-02aa-4dd2-8afb-e6b4dd9fa82e"
+    ]
+  }
+]

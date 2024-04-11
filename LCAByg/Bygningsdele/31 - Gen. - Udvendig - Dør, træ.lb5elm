@@ -1,0 +1,133 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "eb3a443c-5de2-482c-ad71-7939ba448ee4",
+        "name": {
+          "Danish": "31 / Gen. / Udvendig / Dør, træ"
+        },
+        "source": "User",
+        "comment": {
+          "English": "",
+          "Danish": "",
+          "Norwegian": "",
+          "German": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "586a68e9-82d9-4466-b198-6d76e9c439cc",
+          "amount": 1.0,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "eb3a443c-5de2-482c-ad71-7939ba448ee4",
+      "a58af11a-3a0d-4250-929f-ef0452703af6"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToElement": {
+          "id": "5fef13be-d108-4ed1-a01b-ad9c51447b0c"
+        }
+      },
+      "9bd14e05-5fba-4ecb-ab41-7940a8a0dbdc",
+      "eb3a443c-5de2-482c-ad71-7939ba448ee4"
+    ]
+  },
+  {
+    "Node": {
+      "Construction": {
+        "id": "a58af11a-3a0d-4250-929f-ef0452703af6",
+        "name": {
+          "Danish": "Udvendig dør, træ, stk",
+          "English": "Exterior door, wood (Clone)"
+        },
+        "unit": "Pcs",
+        "source": "User",
+        "comment": {
+          "Danish": "Standard byggevaremængderne er ganget med to for at omregne disse til stk.\n\nUdvendig dør, træ, uisoleret. 50/100 mm karm, 40/120 mm ramme og tværprofil, 10 mm tavler og 50/100 bundkarm i egetræ.\n\nAntagelse af at yderdøren er i mål 948 x 2115 mm. Dvs. samlet areal på 2 m2\n\nhttps://www.swedoor.dk/tips-og-rad-da/maaltabeller-yderdore",
+          "English": "Exterior door, wood, uninsulated. 50/100 mm sill, 40/120 mm frame and cross profile in oak."
+        },
+        "locked": true
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "956f0e6a-7243-4cf6-9cb9-148b017ff8a6",
+          "amount": 45.6,
+          "unit": "KG",
+          "lifespan": 40,
+          "demolition": false,
+          "delayed_start": 0,
+          "enabled": true,
+          "excluded_scenarios": []
+        }
+      },
+      "a58af11a-3a0d-4250-929f-ef0452703af6",
+      "dedfe00f-4dec-5606-8602-4f6ec6e21e65"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "3fce130b-2587-442c-9100-676589100517",
+          "amount": 3.26,
+          "unit": "KG",
+          "lifespan": 40,
+          "demolition": false,
+          "delayed_start": 0,
+          "enabled": true,
+          "excluded_scenarios": []
+        }
+      },
+      "a58af11a-3a0d-4250-929f-ef0452703af6",
+      "dedfe00f-4dec-5606-8602-4f6ec6e21e65"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "c4e61f36-4820-445c-9c0a-04abee418c90",
+          "amount": 0.1,
+          "unit": "KG",
+          "lifespan": 60,
+          "demolition": false,
+          "delayed_start": 0,
+          "enabled": true,
+          "excluded_scenarios": []
+        }
+      },
+      "a58af11a-3a0d-4250-929f-ef0452703af6",
+      "3d8cc01e-560b-5539-aa75-676489462161"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "CategoryToConstruction": {
+          "id": "ed6ac76e-a370-4550-83e1-dae4edd65751",
+          "layers": [
+            1
+          ]
+        }
+      },
+      "9bd14e05-5fba-4ecb-ab41-7940a8a0dbdc",
+      "a58af11a-3a0d-4250-929f-ef0452703af6"
+    ]
+  }
+]
